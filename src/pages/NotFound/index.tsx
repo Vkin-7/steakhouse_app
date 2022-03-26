@@ -1,12 +1,28 @@
 import { withTranslation, WithTranslation } from "react-i18next";
-import { IoChevronBackOutline } from 'react-icons/io5';
+
+import { 
+    NotFoundContainer, 
+    NotFoundMessageContainer,
+    NotFoundMessageHeader,
+    NotFoundImage,
+    NotFoundText 
+} from "../../components/NotFound.tsx";
+
+import ErrorImage from '../../assets/error_img.png';
 
 const NotFound: React.FC<WithTranslation> = ({ t }) => {
     return (
-        <>
-            <IoChevronBackOutline />
-            <h1>{t('Not Found')}</h1>
-        </>
+        <NotFoundContainer>
+            <NotFoundMessageContainer>
+                <NotFoundMessageHeader>
+                    <h1>{t('NotFound')}</h1>
+                    <h1>Error 404</h1>
+                </NotFoundMessageHeader>
+
+                <NotFoundImage src={ErrorImage} />
+                <NotFoundText>{t('ErrorMessage')}</NotFoundText>
+            </NotFoundMessageContainer>
+        </NotFoundContainer>
     );
 }
 

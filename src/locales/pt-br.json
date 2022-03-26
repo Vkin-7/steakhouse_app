@@ -1,5 +1,10 @@
 {
     "translation": {
-        "Not Found": "Página não encontrada"
+        "NotFound": "Página não encontrada",
+        "BackHome": "Voltar para a tela inicial",
+        "ErrorMessage": "Opa!!! parece que está página não existe.",
+        "AboutUs": "Sobre nós",
+        "AboutUsText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur sint fugit ipsum tenetur earum deleniti nemo dolorum, nulla voluptatum autem quas quae ad dolor minus velit reiciendis, nam delectus. Repellat!",
+        "Login": "Entrar"
     }
 }

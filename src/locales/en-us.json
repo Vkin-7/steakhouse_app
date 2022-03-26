@@ -1,5 +1,10 @@
 {
     "translation": {
-        "Not Found": "Not Found"
+        "NotFound": "Not Found",
+        "BackHome": "Back Home",
+        "ErrorMessage": "Woops!!! this page doents exists.",
+        "AboutUs": "About Us",
+        "AboutUsText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur sint fugit ipsum tenetur earum deleniti nemo dolorum, nulla voluptatum autem quas quae ad dolor minus velit reiciendis, nam delectus. Repellat!",
+        "Login": "Login"
     }
 }

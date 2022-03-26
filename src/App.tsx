@@ -7,6 +7,7 @@ import './locales';
 
 import dark from './themes/dark';
 import light from './themes/light';
+import NavBarTop from './components/NavBarTop';
 
 function App() {
   const isDarkTheme = useThemeDetector();
